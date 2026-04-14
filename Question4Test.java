@@ -12,7 +12,7 @@ class Question4Test {
         int num4 = 12345;
         int num5 = 54345;
         int num6 = 112211;
-        int num7 = 121221;
+        int num7 = 141321;
         int reversed = Question4.reverseNumber(num1);
         int reversed2 = Question4.reverseNumber(num2);
         int reversed3 = Question4.reverseNumber(num3);
