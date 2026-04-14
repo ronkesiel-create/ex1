@@ -1,7 +1,11 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 public class Question4 {
-
+    /**
+     *
+     * @param num the given number
+     * @return the sum of the number of digits in the given number
+     */
     public static int sumDigits(int num) {
         if (num < 1) {
             return 0;
@@ -13,15 +17,13 @@ public class Question4 {
         }
         return count;
     }
-/*
+
     /**
      *
      * @param num the number given to reverse it
      * @return the number given written in reverse
      */
-    //123
-
-    /*
+    
     public static int reverseNumber(int num) {
        int power = 0;
        int d = sumDigits(num);
@@ -41,7 +43,7 @@ public class Question4 {
      * @param num the number given to check is it's palindrome or not
      * @return true or false depending on if the  number given is palindrome or not
      */
-/*
+
     public static boolean isPalindrome(int num) {
         int reversed = reverseNumber(num);
         if(num==reversed){
@@ -51,15 +53,14 @@ public class Question4 {
             return false;
         }
     }
-    //12345
 
-    /*
+    
     /**
      *
      * @param num the number given to make a palindrome
      * @return a palindrome number
      */
-/*
+
     public static int makePalindrome(int num) {
         while (!isPalindrome(num)) {
             num = reverseNumber(num);
@@ -78,4 +79,3 @@ public class Question4 {
 
 }
 
-*/
