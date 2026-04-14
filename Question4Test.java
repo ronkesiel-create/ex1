@@ -32,10 +32,31 @@ class Question4Test {
     @Test
     void isPalindrome() {
 
+        int num1 = 1;
+        int num2 = 11;
+        int num3 = 345;
+        int num4 = 12345;
+        int num5 = 54345;
+        int num6 = 112211;
+        int num7 = 141321;
+        assertTrue(Question4.isPalindrome(num1));
+        assertTrue(Question4.isPalindrome(num2));
+        assertFalse(Question4.isPalindrome(num3));
+        assertFalse(Question4.isPalindrome(num4));
+        assertTrue(Question4.isPalindrome(num5));
+        assertTrue(Question4.isPalindrome(num6));
+        assertFalse(Question4.isPalindrome(num7));
+
     }
 
     @Test
     void makePalindrome() {
+        int num = 628;
+        int reversed = Question4.makePalindrome(num);
+        System.out.println(reversed);
+
+
+
     }
 
     @Test
