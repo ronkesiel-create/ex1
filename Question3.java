@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+import java.util.Scanner;
 
 public class Question3 {
     public static int findMax(int[] arr){
@@ -24,4 +24,4 @@ public class Question3 {
     }
 }
 
- */
+ 
