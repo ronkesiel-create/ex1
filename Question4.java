@@ -61,9 +61,12 @@ public class Question4 {
      * @return a palindrome number
      */
 
+      */
     public static int makePalindrome(int num) {
+        int reversed = 0;
         while (!isPalindrome(num)) {
-            num = reverseNumber(num);
+            reversed = reverseNumber(num);
+            num += reversed;
         }
         return num;
     }
