@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
-/*public class Question1 {
+public class Question1 {
     /**
      *
      * @param num the number given to check is it prime or not
      * @return true or false depending on the number given
      */
 
-/*
+
     public static boolean isPrime(int num) {
-        // 1 & 2 special cases to for is the number prime or not
+        // 1,2 and 3 special cases to for is the number prime or not
         if (num <= 1) {
             return false;
         }
-        if (num == 2) {
+        if (num == 2 || num == 3) {
             return true;
         }
 
@@ -30,10 +30,10 @@ import java.util.Scanner;
     }
 
     /**
-     * this function is given a on prime number to factor into its prime number that multiply it
+     * this function is factoring a given number into its prime number's that multiply it
      * @param num the given number
      */
-/*
+
     public static void factor(int num) {
         int numToFactor = num;
         int divider = 2;
@@ -71,6 +71,4 @@ import java.util.Scanner;
         }
         input.close();
     }
-/*}
-/*
-*/
+}
